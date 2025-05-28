@@ -1,6 +1,6 @@
 # Stridr 🏃‍♂️
 
-**Welcome Runners!** - A comprehensive iOS running tracking app that helps you track your runs, monitor your progress, and store your workout data securely in the cloud.
+**Welcome Runners to Stridr!** - A comprehensive iOS running tracking app that helps you track your runs, monitor your progress, and store your workout data securely in the cloud.
 
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 ![iOS](https://img.shields.io/badge/iOS-15.0+-blue.svg)
