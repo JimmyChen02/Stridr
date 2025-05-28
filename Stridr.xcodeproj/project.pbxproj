@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8774D9D32DE6ED8B0062D747 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 8774D9D22DE6ED8B0062D747 /* Auth */; };
+		8774D9D52DE6ED8B0062D747 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 8774D9D42DE6ED8B0062D747 /* Functions */; };
+		8774D9D72DE6ED8B0062D747 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 8774D9D62DE6ED8B0062D747 /* PostgREST */; };
+		8774D9D92DE6ED8B0062D747 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 8774D9D82DE6ED8B0062D747 /* Realtime */; };
+		8774D9DB2DE6ED8B0062D747 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 8774D9DA2DE6ED8B0062D747 /* Storage */; };
+		8774D9DE2DE6EE310062D747 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8774D9DD2DE6EE310062D747 /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87CA64CE2DDE662F0073E875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CA64B52DDE662D0073E875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CA64BC2DDE662D0073E875;
+			remoteInfo = Stridr;
+		};
+		87CA64D82DDE662F0073E875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CA64B52DDE662D0073E875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CA64BC2DDE662D0073E875;
+			remoteInfo = Stridr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87CA64BD2DDE662D0073E875 /* Stridr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stridr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CA64CD2DDE662F0073E875 /* StridrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StridrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CA64D72DDE662F0073E875 /* StridrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StridrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8774D9E02DE776AF0062D747 /* Exceptions for "Stridr" folder in "Stridr" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 87CA64BC2DDE662D0073E875 /* Stridr */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		87CA64BF2DDE662D0073E875 /* Stridr */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8774D9E02DE776AF0062D747 /* Exceptions for "Stridr" folder in "Stridr" target */,
+			);
+			path = Stridr;
+			sourceTree = "<group>";
+		};
+		87CA64D02DDE662F0073E875 /* StridrTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StridrTests;
+			sourceTree = "<group>";
+		};
+		87CA64DA2DDE662F0073E875 /* StridrUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StridrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CA64BA2DDE662D0073E875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8774D9D72DE6ED8B0062D747 /* PostgREST in Frameworks */,
+				8774D9D52DE6ED8B0062D747 /* Functions in Frameworks */,
+				8774D9DE2DE6EE310062D747 /* Supabase in Frameworks */,
+				8774D9D32DE6ED8B0062D747 /* Auth in Frameworks */,
+				8774D9DB2DE6ED8B0062D747 /* Storage in Frameworks */,
+				8774D9D92DE6ED8B0062D747 /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CA64CA2DDE662F0073E875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CA64D42DDE662F0073E875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8774D9DC2DE6EE310062D747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87CA64B42DDE662D0073E875 = {
+			isa = PBXGroup;
+			children = (
+				87CA64BF2DDE662D0073E875 /* Stridr */,
+				87CA64D02DDE662F0073E875 /* StridrTests */,
+				87CA64DA2DDE662F0073E875 /* StridrUITests */,
+				8774D9DC2DE6EE310062D747 /* Frameworks */,
+				87CA64BE2DDE662D0073E875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87CA64BE2DDE662D0073E875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CA64BD2DDE662D0073E875 /* Stridr.app */,
+				87CA64CD2DDE662F0073E875 /* StridrTests.xctest */,
+				87CA64D72DDE662F0073E875 /* StridrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CA64BC2DDE662D0073E875 /* Stridr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CA64E12DDE662F0073E875 /* Build configuration list for PBXNativeTarget "Stridr" */;
+			buildPhases = (
+				87CA64B92DDE662D0073E875 /* Sources */,
+				87CA64BA2DDE662D0073E875 /* Frameworks */,
+				87CA64BB2DDE662D0073E875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				87CA64BF2DDE662D0073E875 /* Stridr */,
+			);
+			name = Stridr;
+			packageProductDependencies = (
+				8774D9D22DE6ED8B0062D747 /* Auth */,
+				8774D9D42DE6ED8B0062D747 /* Functions */,
+				8774D9D62DE6ED8B0062D747 /* PostgREST */,
+				8774D9D82DE6ED8B0062D747 /* Realtime */,
+				8774D9DA2DE6ED8B0062D747 /* Storage */,
+				8774D9DD2DE6EE310062D747 /* Supabase */,
+			);
+			productName = Stridr;
+			productReference = 87CA64BD2DDE662D0073E875 /* Stridr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87CA64CC2DDE662F0073E875 /* StridrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CA64E42DDE662F0073E875 /* Build configuration list for PBXNativeTarget "StridrTests" */;
+			buildPhases = (
+				87CA64C92DDE662F0073E875 /* Sources */,
+				87CA64CA2DDE662F0073E875 /* Frameworks */,
+				87CA64CB2DDE662F0073E875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CA64CF2DDE662F0073E875 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				87CA64D02DDE662F0073E875 /* StridrTests */,
+			);
+			name = StridrTests;
+			packageProductDependencies = (
+			);
+			productName = StridrTests;
+			productReference = 87CA64CD2DDE662F0073E875 /* StridrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87CA64D62DDE662F0073E875 /* StridrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CA64E72DDE662F0073E875 /* Build configuration list for PBXNativeTarget "StridrUITests" */;
+			buildPhases = (
+				87CA64D32DDE662F0073E875 /* Sources */,
+				87CA64D42DDE662F0073E875 /* Frameworks */,
+				87CA64D52DDE662F0073E875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CA64D92DDE662F0073E875 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				87CA64DA2DDE662F0073E875 /* StridrUITests */,
+			);
+			name = StridrUITests;
+			packageProductDependencies = (
+			);
+			productName = StridrUITests;
+			productReference = 87CA64D72DDE662F0073E875 /* StridrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CA64B52DDE662D0073E875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					87CA64BC2DDE662D0073E875 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					87CA64CC2DDE662F0073E875 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 87CA64BC2DDE662D0073E875;
+					};
+					87CA64D62DDE662F0073E875 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 87CA64BC2DDE662D0073E875;
+					};
+				};
+			};
+			buildConfigurationList = 87CA64B82DDE662D0073E875 /* Build configuration list for PBXProject "Stridr" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87CA64B42DDE662D0073E875;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 87CA64BE2DDE662D0073E875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CA64BC2DDE662D0073E875 /* Stridr */,
+				87CA64CC2DDE662F0073E875 /* StridrTests */,
+				87CA64D62DDE662F0073E875 /* StridrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87CA64BB2DDE662D0073E875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CA64CB2DDE662F0073E875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CA64D52DDE662F0073E875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CA64B92DDE662D0073E875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CA64C92DDE662F0073E875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CA64D32DDE662F0073E875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87CA64CF2DDE662F0073E875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CA64BC2DDE662D0073E875 /* Stridr */;
+			targetProxy = 87CA64CE2DDE662F0073E875 /* PBXContainerItemProxy */;
+		};
+		87CA64D92DDE662F0073E875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CA64BC2DDE662D0073E875 /* Stridr */;
+			targetProxy = 87CA64D82DDE662F0073E875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87CA64DF2DDE662F0073E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87CA64E02DDE662F0073E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CA64E22DDE662F0073E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stridr/Stridr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stridr/Preview Content\"";
+				DEVELOPMENT_TEAM = P2LUTF8N6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stridr/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmychen.Stridr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87CA64E32DDE662F0073E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stridr/Stridr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stridr/Preview Content\"";
+				DEVELOPMENT_TEAM = P2LUTF8N6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stridr/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to enjoy the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmychen.Stridr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87CA64E52DDE662F0073E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LUTF8N6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmychen.StridrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stridr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stridr";
+			};
+			name = Debug;
+		};
+		87CA64E62DDE662F0073E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LUTF8N6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmychen.StridrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stridr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stridr";
+			};
+			name = Release;
+		};
+		87CA64E82DDE662F0073E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LUTF8N6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmychen.StridrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stridr;
+			};
+			name = Debug;
+		};
+		87CA64E92DDE662F0073E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LUTF8N6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmychen.StridrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stridr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CA64B82DDE662D0073E875 /* Build configuration list for PBXProject "Stridr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CA64DF2DDE662F0073E875 /* Debug */,
+				87CA64E02DDE662F0073E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CA64E12DDE662F0073E875 /* Build configuration list for PBXNativeTarget "Stridr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CA64E22DDE662F0073E875 /* Debug */,
+				87CA64E32DDE662F0073E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CA64E42DDE662F0073E875 /* Build configuration list for PBXNativeTarget "StridrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CA64E52DDE662F0073E875 /* Debug */,
+				87CA64E62DDE662F0073E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CA64E72DDE662F0073E875 /* Build configuration list for PBXNativeTarget "StridrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CA64E82DDE662F0073E875 /* Debug */,
+				87CA64E92DDE662F0073E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8774D9D22DE6ED8B0062D747 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		8774D9D42DE6ED8B0062D747 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		8774D9D62DE6ED8B0062D747 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		8774D9D82DE6ED8B0062D747 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		8774D9DA2DE6ED8B0062D747 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		8774D9DD2DE6EE310062D747 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8774D9D12DE6ED8A0062D747 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 87CA64B52DDE662D0073E875 /* Project object */;
+}
