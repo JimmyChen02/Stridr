@@ -6,18 +6,18 @@
 ![iOS](https://img.shields.io/badge/iOS-15.0+-blue.svg)
 ![Supabase](https://img.shields.io/badge/Supabase-Backend-green.svg)
 
-## 📱 Features
+## Features
 
-- 🏃‍♂️ **Real-Time Run Tracking**: Track distance, pace, time, and calories burned
-- 🗺️ **GPS Route Mapping**: Visual route tracking with MapKit integration
-- ⏱️ **Advanced Timer**: Countdown start, pause/resume functionality
-- 📊 **Workout History**: View all your past runs with detailed statistics
-- ❤️ **HealthKit Integration**: Automatically sync workouts to Apple Health
-- 🔐 **Magic Link Authentication**: Secure passwordless login via email
-- ☁️ **Cloud Storage**: All workout data stored securely in Supabase
-- 📱 **Native iOS Experience**: Built with SwiftUI for optimal performance
+- **Real-Time Run Tracking**: Track distance, pace, time, and calories burned
+- **GPS Route Mapping**: Visual route tracking with MapKit integration
+- **Advanced Timer**: Countdown start, pause/resume functionality
+- **Workout History**: View all your past runs with detailed statistics
+- ❤**HealthKit Integration**: Automatically sync workouts to Apple Health
+- **Magic Link Authentication**: Secure passwordless login via email
+- **Cloud Storage**: All workout data stored securely in Supabase
+- **Native iOS Experience**: Built with SwiftUI for optimal performance
 
-## 📸 Screenshots
+## Screenshots
 
 The app includes:
 - **Home View**: Map interface with start button
@@ -27,7 +27,7 @@ The app includes:
 - **Activity View**: Complete workout history with detailed metrics
 - **Login View**: Clean magic link authentication
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: SwiftUI (iOS 15.0+)
 - **Backend**: Supabase (Database, Authentication, Real-time)
@@ -37,7 +37,7 @@ The app includes:
 - **Location**: Core Location Services
 - **Authentication**: Supabase Auth with Magic Links
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this application, make sure you have the following:
 
@@ -47,7 +47,7 @@ Before running this application, make sure you have the following:
 - **Supabase Account** and project
 - **macOS Monterey** or later
 
-## 🚀 Setup
+## Setup
 
 ### 1. Clone the Repository
 
@@ -120,7 +120,7 @@ The app requires the following permissions (already configured in code):
 2. Select your target device or simulator
 3. Build and run the project (`Cmd + R`)
 
-## 🏗️ App Architecture
+## App Architecture
 
 ### Key Components
 
@@ -145,7 +145,7 @@ The app requires the following permissions (already configured in code):
 - **RunPayload**: Core workout data structure
 - **GeoJSONCoordinate**: GPS coordinate storage format
 
-## 💡 Usage
+## Usage
 
 1. **Login**: Enter your email to receive a magic link
 2. **Start Run**: Tap the start button on the home screen
@@ -155,7 +155,7 @@ The app requires the following permissions (already configured in code):
 6. **Stop**: Long-press the stop button to end your workout
 7. **Review**: Check your workout history in the Activity tab
 
-## 🔧 Features in Detail
+## Features in Detail
 
 ### GPS Tracking
 - Real-time location updates with high accuracy
@@ -175,20 +175,20 @@ The app requires the following permissions (already configured in code):
 - HealthKit integration for Apple Health sync
 - GeoJSON route storage for detailed tracking
 
-## 🔒 Privacy & Permissions
+## Privacy & Permissions
 
 - **Location**: Required for GPS tracking during runs
 - **HealthKit**: Optional, for syncing workouts to Apple Health
 - **Authentication**: Email-based magic link authentication only
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Social features for connecting with other runners
 - Advanced workout analytics and insights
 - Heart rate monitoring integration via Apple Watch analytics
 - Custom workout goals and challenges
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Supabase** for backend infrastructure
 - **Apple** for SwiftUI, MapKit, and HealthKit frameworks
