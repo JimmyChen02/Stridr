@@ -12,7 +12,7 @@
 - **GPS Route Mapping**: Visual route tracking with MapKit integration
 - **Advanced Timer**: Countdown start, pause/resume functionality
 - **Workout History**: View all your past runs with detailed statistics
-- ❤**HealthKit Integration**: Automatically sync workouts to Apple Health
+- **HealthKit Integration**: Automatically sync workouts to Apple Health
 - **Magic Link Authentication**: Secure passwordless login via email
 - **Cloud Storage**: All workout data stored securely in Supabase
 - **Native iOS Experience**: Built with SwiftUI for optimal performance
