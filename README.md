@@ -6,6 +6,14 @@
 ![iOS](https://img.shields.io/badge/iOS-15.0+-blue.svg)
 ![Supabase](https://img.shields.io/badge/Supabase-Backend-green.svg)
 
+## Images
+<img width="441" height="913" alt="stridrApp1" src="https://github.com/user-attachments/assets/5a983cb4-678c-4a55-bad6-2f5558dd5961" />
+<img width="448" height="921" alt="stridrApp2" src="https://github.com/user-attachments/assets/356e6abc-1f8e-4e9c-9784-d78815a61139" />
+<img width="445" height="914" alt="stridrApp3" src="https://github.com/user-attachments/assets/efeb2577-5df6-4585-90c5-ba38ec5470ae" />
+<img width="448" height="925" alt="stridrApp4" src="https://github.com/user-attachments/assets/c69671c0-f642-44ae-850d-8c3d12d5fdc5" />
+
+
+---
 ## Features
 
 - **Real-Time Run Tracking**: Track distance, pace, time, and calories burned
@@ -17,7 +25,7 @@
 - **Cloud Storage**: All workout data stored securely in Supabase
 - **Native iOS Experience**: Built with SwiftUI for optimal performance
 
-## Screenshots
+## Views
 
 The app includes:
 - **Home View**: Map interface with start button
